@@ -5,17 +5,18 @@ body{
 
 .display{
     width: 268px;
-    height: 32px;
+    height: 50px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 4px;
     margin: 8px 4px;
-    font-size: inherit;
+    font-size: x-large;
     text-align: right;
 }
-    .row{
-        margin-left: 4px;
-    }
+
+.row{
+    margin-left: 4px;
+}
 
 .clearButton{
     width: 268px;

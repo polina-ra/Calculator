@@ -82,6 +82,7 @@ class Calculator extends React.Component{
         return res
     }
 
+
     renderButton(type, i) {      
         return (
           <Button
@@ -97,37 +98,37 @@ class Calculator extends React.Component{
             <div>
                 <Display value={this.state.displayString}   />
                 <div className="row">
-                {this.renderButton("numberButton",7)}
-                {this.renderButton("numberButton",8)}
-                {this.renderButton("numberButton",9)}
-                {this.renderButton("mathButton","+")}    
-                {this.renderButton("mathButton","(")} 
+                    {this.renderButton("numberButton",7)}
+                    {this.renderButton("numberButton",8)}
+                    {this.renderButton("numberButton",9)}
+                    {this.renderButton("mathButton","+")}    
+                    {this.renderButton("mathButton","(")} 
                 </div>
                 <div className="row">
-                {this.renderButton("numberButton",4)}
-                {this.renderButton("numberButton",5)}
-                {this.renderButton("numberButton",6)}
-                {this.renderButton("mathButton","-")} 
-                {this.renderButton("mathButton",")")}  
+                    {this.renderButton("numberButton",4)}
+                    {this.renderButton("numberButton",5)}
+                    {this.renderButton("numberButton",6)}
+                    {this.renderButton("mathButton","-")} 
+                    {this.renderButton("mathButton",")")}  
                 </div>
                 <div className="row">
-                {this.renderButton("numberButton",1)}
-                {this.renderButton("numberButton",2)}
-                {this.renderButton("numberButton",3)}
-                {this.renderButton("mathButton","*")}   
-                {this.renderButton("mathButton","exp")} 
+                    {this.renderButton("numberButton",1)}
+                    {this.renderButton("numberButton",2)}
+                    {this.renderButton("numberButton",3)}
+                    {this.renderButton("mathButton","*")}   
+                    {this.renderButton("mathButton","exp")} 
                 </div>
                 <div className="row">
-                {this.renderButton("numberButton",0)}              
-                {this.renderButton("numberButton",".")}        
-                {this.renderButton("numberButton","-")}
-                {this.renderButton("mathButton","/")}  
-                {this.renderButton("calcButton","=")}
+                    {this.renderButton("numberButton",0)}              
+                    {this.renderButton("numberButton",".")}        
+                    {this.renderButton("numberButton","-")}
+                    {this.renderButton("mathButton","/")}  
+                    {this.renderButton("calcButton","=")}
                 </div>
                 <div className='row'>
-                {this.renderButton("clearButton","clear")}
+                    {this.renderButton("clearButton","clear")}
                 </div>           
-                </div>
+            </div>
 
         );
     };
